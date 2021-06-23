@@ -4,7 +4,8 @@ int main()
 { 
   char ch;
 	printf("input char >> ");
-	while (1) {
+	while (1) 
+	{
 		ch = getchar();
 		if (ch == '\n')
 			break;
