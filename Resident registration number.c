@@ -10,5 +10,5 @@ int main() {
 		printf("출력 : 여자");
 	else
 		printf("유효하지 않음");
-  
+ return 0;  
 }
