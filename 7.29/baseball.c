@@ -67,4 +67,4 @@ int main() {
 			printf("%d out\n", out);
 		}
 	}
-}
+} 
