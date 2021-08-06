@@ -9,7 +9,7 @@ void wordlist(char *str) {
 		}
 		printf("%c", str[i]);
 		if (str[i] == ' ')
-		{
+		{ 
 			printf("\n");
 		}
 	}
