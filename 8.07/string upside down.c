@@ -9,7 +9,7 @@ char sreverse(char *sarr, int num) {
 		sarr[num - 1 - i] = temp;		//*(sarr + num - i - 1) = temp;
 	}
 }
-
+ 
 int main() {
   
   char* sarr;
