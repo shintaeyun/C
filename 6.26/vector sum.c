@@ -4,7 +4,7 @@ struct vector  get_vector_sum(struct vector a, struct vector b)
 {
 	struct vector result;
 	result.x = a.x + b.x;
-	result.y = a.y + b.y;
+	result.y = a.y + b.y;  
 
 	return result;
 };
