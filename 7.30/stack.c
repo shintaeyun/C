@@ -1,11 +1,10 @@
 #include <stdio.h>
 #define MAX_SIZE 5
-#pragma warning(disable: 4996)
 
 int stack[MAX_SIZE];
 int top = -1;
 int bottom = 0;
-
+   
 int IsEmpty() {
 	if (top < 0)
 		return 1;
