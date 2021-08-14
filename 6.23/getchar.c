@@ -7,7 +7,7 @@ int main()
 	while (1) 
 	{
 		ch = getchar();
-		if (ch == '\n')
+		if (ch == '\n')    
 			break;
 		if (ch >= 'a' && ch <= 'z')
 			ch = ch - 32;
