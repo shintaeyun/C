@@ -6,7 +6,7 @@ struct vector  get_vector_sum(struct vector a, struct vector b)
 	result.x = a.x + b.x;
 	result.y = a.y + b.y;  
 
-	return result;
+	return result;  
 };
 
 int main() {
