@@ -21,4 +21,4 @@ int main() {
 	printf("Enter Sentence : ");
 	gets(str);
 	wordlist(str);
-}
+}  
