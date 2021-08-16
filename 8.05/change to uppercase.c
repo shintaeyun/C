@@ -22,3 +22,4 @@ int main() {
 	gets(str);
 	wordlist(str);
 }  
+  
