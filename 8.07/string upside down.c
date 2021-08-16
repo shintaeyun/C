@@ -4,7 +4,7 @@
 char sreverse(char *sarr, int num) {
 	for (int i = 0; i < num / 2; i++)
 	{
-		char temp = sarr[i];			//char temp = *(sarr + i);
+		char temp = sarr[i];			//char temp = *(sarr + i);   
 		sarr[i] = sarr[num - 1 - i];	//*(sarr + i) = *(sarr + num - i - 1);
 		sarr[num - 1 - i] = temp;		//*(sarr + num - i - 1) = temp;
 	}
