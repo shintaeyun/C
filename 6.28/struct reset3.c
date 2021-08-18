@@ -5,7 +5,7 @@ struct student {
 	char name[20];
 	double grade;
 };
-
+  
 int main() {
 struct student s;
 	scanf("%d", &s.number);
