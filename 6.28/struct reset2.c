@@ -9,7 +9,7 @@ struct student {
 
 int main() {
 
-
+  
 struct student s;
 	s.number = 20190001;
 	strcpy(s.name, "홍길동");
