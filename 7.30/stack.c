@@ -11,7 +11,7 @@ int IsEmpty() {
 	else
 		return 0;
 }
-
+   
 int pop() {
 	if (IsEmpty() == 1)
 		printf("stack is empty\n");
