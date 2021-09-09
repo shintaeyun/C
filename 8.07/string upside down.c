@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>  
+#include <stdlib.h>    
 
 char sreverse(char *sarr, int num) {
 	for (int i = 0; i < num / 2; i++)
