@@ -1,5 +1,5 @@
 #incldue <stdio.h>
-
+  
 void swap(int* a, int* b, int* c)
 {
 	int temp = 0;
