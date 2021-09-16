@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  char number[15];
+  char number[15];  
 	printf("입력 : ");
 	gets(number);
 	if (number[7] == '1' || number[7] == '3')
